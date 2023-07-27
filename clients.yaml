@@ -1,0 +1,30 @@
+# type ClientConfig struct {
+# 	ID                             string              `yaml:"id"`
+# 	Secret                         string              `yaml:"secret"`
+# 	RedirectURIs                   []string            `yaml:"redirectUris"`
+# 	ApplicationType                op.ApplicationType  `yaml:"applicationType"`
+# 	AuthMethod                     oidc.AuthMethod     `yaml:"authMethod"`
+# 	LoginURL                       string              `yaml:"loginUrl"`
+# 	ResponseTypes                  []oidc.ResponseType `yaml:"responseTypes"`
+# 	GrantTypes                     []oidc.GrantType    `yaml:"grantTypes"`
+# 	AccessTokenType                op.AccessTokenType  `yaml:"accessTokenType"`
+# 	DevMode                        bool                `yaml:"devMode"`
+# 	IDTokenUserinfoClaimsAssertion bool                `yaml:"idTokenUserinfoClaimsAssertion"`
+# 	ClockSkew                      time.Duration       `yaml:"clockSkew"`
+# }
+-
+  id: testua
+  redirectUris:
+    - http://localhost:5173
+    - http://localhost:5173/authentication/callback
+    - http://localhost:5173/authentication/silent-callback
+  applicationType: user_agent
+  authMethod: none
+  responseTypes:
+    - code
+  grantTypes:
+    - authorization_code
+    - refresh_token
+  accessTokenType: bearer
+  devMode: true
+  idTokenUserinfoClaimsAssertion: true
