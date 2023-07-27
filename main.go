@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/thegrumpylion/uop/op"
-	"github.com/thegrumpylion/uop/storage"
+	"github.com/greatliontech/uop/op"
+	"github.com/greatliontech/uop/storage"
 	"gopkg.in/yaml.v3"
 )
 

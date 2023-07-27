@@ -1,3 +1,11 @@
 = uop
 
 micro oidc provider
+
+== features
+
+* [ ] external providers
+* [ ] clients
+* [ ] users
+* [ ] custom scopes/claims
+* [ ] impersonation

@@ -1,4 +1,4 @@
-module github.com/thegrumpylion/uop
+module github.com/greatliontech/uop
 
 go 1.20
 
