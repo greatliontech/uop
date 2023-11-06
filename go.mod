@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/google/uuid v1.3.1
 	github.com/gorilla/mux v1.8.0
-	github.com/gorilla/securecookie v1.1.1
+	github.com/gorilla/securecookie v1.1.2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/zitadel/oidc/v2 v2.11.0
 	golang.org/x/text v0.13.0
